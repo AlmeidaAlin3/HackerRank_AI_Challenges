@@ -1,4 +1,4 @@
-# My solutions to [Hacker Rank's AI challenges](https://www.hackerrank.com/domains/ai)
+# My solutions to [Hacker Rank](https://www.hackerrank.com/domains/ai)'s AI challenges
 
 ### **1. Bot Building**
 &nbsp;&nbsp;&nbsp;&nbsp; **1.1** [**Bot Saves Princess**](https://github.com/AlmeidaAlin3/HackerRank_Challenges_Artificial_Intelligence/blob/main/1_BotSavesPrincess/BotSavesPrincess.py)  
