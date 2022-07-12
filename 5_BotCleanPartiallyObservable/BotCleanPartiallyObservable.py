@@ -48,10 +48,6 @@ def memorize_new_garbages(board):
                 if g_str not in memorized_garbages_str:
                     f.write(g_str)
             f.close()
-            
-#            with open(r"file-bot/saw_garbages.txt", mode='r') as f:
-#                memorized_garbages_str = f.read().split('\n')
-#                print("--- final_memorized_garbages_str", memorized_garbages_str)
 
         
 #---   
@@ -137,14 +133,6 @@ def move_to_clean(row_garbage, col_garbage, row_robot, col_robot):
 #---   
 # removes cleaned garbage from the txt file that stores remaining garbages
 def update_cleaned_garbage(cleaned_num): 
-
-###    
-#    with open(r"file-bot/saw_garbages.txt", mode='r') as f:
-#        memory = f.read().split('\n')
-#        print("-memory", memory)
-#        f.close()
-###
-
     with open(r"file-bot/saw_garbages.txt", mode='r') as f:     
         memorized_garbages_str = f.read().split('\n')
         f.close()
@@ -158,12 +146,6 @@ def update_cleaned_garbage(cleaned_num):
                     f.write(g_str+"\n")    
         f.close()
     
-###
-#    with open(r"file-bot/saw_garbages.txt", mode='r') as f:
-#        memory = f.read().split('\n')
-#        print("--memory", memory)
-#        f.close()
-###
 
 #---
 def next_move(posx, posy, board):
